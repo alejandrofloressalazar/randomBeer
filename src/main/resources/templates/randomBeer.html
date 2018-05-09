@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="ISO-8859-1" />
+<title>Random Beer</title>
+<link href="webjars/bootstrap/4.0.0-2/css/bootstrap.min.css"
+	rel="stylesheet" />
+<script src="webjars/bootstrap/4.0.0-2/js/bootstrap.min.js"></script>
+<script src="webjars/jquery/3.3.1/jquery.min.js"></script>
+<link th:href="@{/css/cover.css}" rel="stylesheet" />
+
+</head>
+<body>
+
+	<div class="site-wrapper">
+
+		<div class="site-wrapper-inner">
+			<div class="cover-container">
+
+				<div class="masthead clearfix">
+					<h1 class="cover-heading">Random Beer App</h1>
+				</div>
+
+				<div class="inner cover">
+					<form method="GET" th:action="@{randomBeer}">
+						<p class="lead">
+							<button type="submit" class="btn btn btn-lg btn-defaultk">Show
+								Another Beer</button>
+						</p>
+					</form>
+
+				</div>
+				<br /> <br />
+				<div class="panel panel-default">
+					<!-- Default panel contents -->
+					<div class="panel-heading">
+						<strong><label th:text="${beer.name}"></label></strong>
+					</div>
+					<table class="table table-striped">
+						<tbody>
+							<tr>
+								<td>Brewery</td>
+								<td><label th:text="${beer.brewery}"></label></td>
+							</tr>
+							<tr>
+								<td>Description</td>
+								<td><label th:text="${beer.Description}"></label></td>
+							</tr>
+							<tr>
+								<td>abv</td>
+								<td><label th:text="${beer.abv}"></label></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+
+				<div class="mastfoot">
+					<div class="inner">
+						<p>
+							by <a href="https://www.linkedin.com/in/alfloressalazar/"
+								target="_blank">Alejandro Flores </a>
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+
+</body>
+</html>
