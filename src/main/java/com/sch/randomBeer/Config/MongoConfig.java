@@ -18,9 +18,8 @@ public class MongoConfig {
 	    public MongoDbFactory mongoDbFactory() throws Exception {
 	    	String url = "";
 	    	//local
-	    	//url = "mongodb://user:password@127.0.0.1:27017/appWeb";
+	    	url = "mongodb://user:password@127.0.0.1:27017/appWeb";
 	    	//atlas
-	    	url = "mongodb://admin:adminTest@clustertest-shard-00-00-x75yn.mongodb.net:27017,clustertest-shard-00-01-x75yn.mongodb.net:27017,clustertest-shard-00-02-x75yn.mongodb.net:27017/test?ssl=true&replicaSet=ClusterTest-shard-0&authSource=admin";
 
 	        MongoClientURI mongoURI = new MongoClientURI(url);
 	        return new SimpleMongoDbFactory(mongoURI);
