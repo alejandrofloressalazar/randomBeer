@@ -24,10 +24,10 @@ Tools :
 
 ## Installation
 
-* you must import the java project in your IDE, eclipse is recommended
-    and have the technologies mentioned above
+* you must import the java project in your IDE, Eclipse is recommended
+* have the technologies mentioned above
 
-* Modify the Mongod Config class with your database connection. 
+* Modify the class MongoConfig.java with your database connection. 
 
 Data base scheme:
 ``` corefile
