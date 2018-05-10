@@ -5,23 +5,22 @@ Beer API rest + Beer website
 Project Technology
 
 Back End
-java 1.8
-Spring Boots 1.5.4
-SpringData mongodb
+*java 1.8
+*Spring Boots 1.5.4
+*SpringData mongodb
 
 Front End
-Bootstrap 4.0
-Thymeleaf
-Html 5
+*Thymeleaf
+*Html 5
 
 Data Base
-MongoDB 3.4
+*MongoDB 3.4
 
 Tools : 
-Eclipse - Spring tool suite-3.8.4
-PostMan
-robo3t
-
+*Eclipse - Spring tool suite-3.8.4
+*PostMan
+*robo3t
+ 
 
 ## Installation
 
@@ -31,7 +30,7 @@ robo3t
 * Modify the Mongod Config class with your database connection. 
 
 Data base scheme:
-
+``` corefile
 {
     "_id" : ObjectId("5af379e4d30b7fc8e7d68f15"),
     "_class" : "com.sch.randomBeer.bean.Beer",
@@ -40,7 +39,7 @@ Data base scheme:
     "abv" : "4.2",
     "brewery" : "Temple Bar "
 }
-
+```
 
 
 ## API Reference & Urls 
@@ -50,14 +49,20 @@ Data base scheme:
 
    API Rest: 
 
+   ~~~ txt 
    GetAll (Get method)
    http://portalpega.cl/alexRandomBeer/api/beer/
+   ~~~
 
+   ~~~ txt
    Get a beer (Get method)
    http://portalpega.cl/alexRandomBeer/api/beer/id
    Example:
    http://portalpega.cl/alexRandomBeer/api/beer/5af379e4d30b7fc8e7d68f15 
-   
+   ~~~
+
+
+   ~~~ txt
    Insert   (Get post)
    http://portalpega.cl/alexRandomBeer/api/beer/
    Example:
@@ -69,9 +74,14 @@ Data base scheme:
 	   "abv":"0.0",
 	   "brewery":"xxx"
    }
+   ~~~
 
+
+   ~~~ txt
    Update (Put method)
    http://portalpega.cl/alexRandomBeer/api/beer/id
+   ~~~
+
 
    Example:
    http://portalpega.cl/alexRandomBeer/api/beer/5af379e4d30b7fc8e7d68f15/
@@ -82,12 +92,15 @@ Data base scheme:
 	   "abv":"0.0",
 	   "brewery":"xxx"
    }
+   ~~~
 
+
+   ~~~ txt
    Delete  (Delete method)
    http://portalpega.cl/alexRandomBeer/api/beer/id
    Example=
    http://portalpega.cl/alexRandomBeer/api/beer/5af37b18d30b7fc8e7d68f16/
-
+   ~~~
 
 
 
