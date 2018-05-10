@@ -80,9 +80,6 @@ Data base scheme:
    ~~~ txt
    Update (Put method)
    http://portalpega.cl/alexRandomBeer/api/beer/id
-   ~~~
-
-
    Example:
    http://portalpega.cl/alexRandomBeer/api/beer/5af379e4d30b7fc8e7d68f15/
    plus the following parameters:
