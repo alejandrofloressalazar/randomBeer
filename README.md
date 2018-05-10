@@ -5,21 +5,21 @@ Beer API rest + Beer website
 Project Technology
 
 Back End
-*java 1.8
-*Spring Boots 1.5.4
-*SpringData mongodb
+* Java 1.8
+* Spring Boots 1.5.4
+* SpringData mongodb
 
 Front End
-*Thymeleaf
-*Html 5
+* Thymeleaf
+* Html 5
 
 Data Base
-*MongoDB 3.4
+* MongoDB 3.4
 
 Tools : 
-*Eclipse - Spring tool suite-3.8.4
-*PostMan
-*robo3t
+* Eclipse - Spring tool suite-3.8.4
+* PostMan
+* robo3t
  
 
 ## Installation
@@ -47,7 +47,7 @@ Data base scheme:
    Website : 
    http://portalpega.cl/alexRandomBeer/randomBeer
 
-   API Rest: 
+  #API Rest: 
 
    ~~~ txt 
    GetAll (Get method)
