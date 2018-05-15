@@ -10,11 +10,11 @@ http://localhost:8080/alexRandomBeer/randomBeer
  ~~~
 
 ### Rest API: 
-Public Rest API  that it allows to modify and obtain records of the 'beer' collection
+Public Rest API  that it allows to modify and obtain records of the 'beer' collection.
 ** more details in 'Rest API & Urls'
 
 
-# Project Technology
+# Technology
 
 ### Back-End 
 * Spring Boots 1.5.4
@@ -48,23 +48,26 @@ Public Rest API  that it allows to modify and obtain records of the 'beer' colle
 * Modify the class MongoConfig.java with your database connection. 
 
 
-# Data Base:
+# Data Base
+
+* Create a collection in your database called
+~~~ txt 
+beer
+~~~ 
+* Insert the sample records:
+ ~~~ txt
+DataBase / beer.json
+~~~ 
+* Modify the MongoConfig.java class with your owner Connection string 
+~~~ txt 
+String url = "";
+~~~ 
 
 Name Collection = beer
 
-db.beer.findOne();
 
-Scheme:
-``` corefile
-{
-    "_id" : ObjectId("5af379e4d30b7fc8e7d68f15"),
-    "_class" : "com.sch.randomBeer.bean.Beer",
-    "name" : "GUINNESS STOUT",
-    "description" : "very cool beer",
-    "abv" : "4.2",
-    "brewery" : "Temple Bar "
-}
-```
+Example Documents :
+DataBase/beer.json
 
 
 # Rest API & Urls 

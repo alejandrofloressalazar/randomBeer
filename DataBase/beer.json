@@ -1,0 +1,72 @@
+
+{
+    "_id" : ObjectId("5af379e4d30b7fc8e7d68f15"),
+    "_class" : "com.sch.randomBeer.bean.Beer",
+    "name" : "GUINNESS STOUT",
+    "description" : "very cool beer",
+    "abv" : "4.2",
+    "brewery" : "Temple Bar "
+}
+
+{
+    "_id" : ObjectId("5af37bc5d30b7fc8e7d68f17"),
+    "_class" : "com.sch.randomBeer.bean.Beer",
+    "name" : "chouffe",
+    "description" : " strong blond 'gnome beer', first brewed in 1982",
+    "abv" : "5",
+    "brewery" : "coffee chouffe"
+}
+
+{
+    "_id" : ObjectId("5af5693ed30b7fc8e7d68f18"),
+    "_class" : "com.sch.randomBeer.bean.Beer",
+    "name" : "Heineken Ireland",
+    "description" : "blonde  beer",
+    "abv" : "5.0",
+    "brewery" : "Kilmainham Square"
+}
+
+{
+    "_id" : ObjectId("5af56a23d30b7fc8e7d68f19"),
+    "_class" : "com.sch.randomBeer.bean.Beer",
+    "name" : "Budweiser",
+    "description" : "Czech beer",
+    "abv" : "3.8",
+    "brewery" : " České Budějovice"
+}
+
+{
+    "_id" : ObjectId("5af56ac3d30b7fc8e7d68f1a"),
+    "_class" : "com.sch.randomBeer.bean.Beer",
+    "name" : "Coors Light",
+    "description" : "is a Canadian lager brand",
+    "abv" : "3.0",
+    "brewery" : "Vancouver BC"
+}
+
+{
+    "_id" : ObjectId("5af56af3d30b7fc8e7d68f1b"),
+    "_class" : "com.sch.randomBeer.bean.Beer",
+    "name" : "Brahma",
+    "description" : "is the most popular beer in Brazil",
+    "abv" : "4.3",
+    "brewery" : "Sao Paulo "
+}
+
+{
+    "_id" : ObjectId("5af56b3ad30b7fc8e7d68f1c"),
+    "_class" : "com.sch.randomBeer.bean.Beer",
+    "name" : "Yanjing",
+    "description" : "Yanjing was given the honor of becoming the official beer of China",
+    "abv" : "4.1",
+    "brewery" : "China Store"
+}
+
+{
+    "_id" : ObjectId("5af56b70d30b7fc8e7d68f1d"),
+    "_class" : "com.sch.randomBeer.bean.Beer",
+    "name" : "Skol",
+    "description" : "Skol lager was created by a combination of British, Canadian, Swedish, and Belgian breweries",
+    "abv" : "4.0",
+    "brewery" : "uK Store"
+}
