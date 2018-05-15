@@ -2,51 +2,33 @@
 
 The project is composed of two large elements
 
-<<<<<<< HEAD
 ### Random Beer website:
-=======
-###Random Beer website:
->>>>>>> ea4a7b5cc7ee7e0b3034fed61eb9bf7697a089cb
 
 The only project webpage, which randomly displays a beer with its details.
  ~~~ txt
 http://localhost:8080/alexRandomBeer/randomBeer
  ~~~
 
-<<<<<<< HEAD
 ### Rest API: 
-=======
-###Rest API:
->>>>>>> ea4a7b5cc7ee7e0b3034fed61eb9bf7697a089cb
-
 Public Rest API  that it allows to modify and obtain records of the 'beer' collection
 ** more details in 'Rest API & Urls'
 
 
 # Project Technology
 
-<<<<<<< HEAD
 ### Back-End 
-=======
-###Back-End
->>>>>>> ea4a7b5cc7ee7e0b3034fed61eb9bf7697a089cb
 * Spring Boots 1.5.4
 * Spring Data MongoDb 1.10.6
 * Java 1.8
 * Maven 
 
-<<<<<<< HEAD
 ### Front-End 
-=======
-###Front-End 
->>>>>>> ea4a7b5cc7ee7e0b3034fed61eb9bf7697a089cb
 * Bootstrap 4.0
 * Thymeleaf
 * Html 5
 * Jquery
 * Css 3
 
-<<<<<<< HEAD
 ### Data Base
 * MongoDB 3.4
 
@@ -54,15 +36,6 @@ Public Rest API  that it allows to modify and obtain records of the 'beer' colle
 * Tomcat 8.5
 
 ### Tools 
-=======
-###Data Base
-* MongoDB 3.4
-
-###Server
-* Tomcat 8.5
-
-###Tools 
->>>>>>> ea4a7b5cc7ee7e0b3034fed61eb9bf7697a089cb
 * Eclipse - Spring tool suite-3.8.4
 * PostMan
 * Robo3t
