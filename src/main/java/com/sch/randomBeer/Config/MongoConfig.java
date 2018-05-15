@@ -16,11 +16,9 @@ public class MongoConfig {
 
 	    @Bean
 	    public MongoDbFactory mongoDbFactory() throws Exception {
-	    	String url = "";
 	    	//local
-	    	url = "mongodb://user:password@127.0.0.1:27017/appWeb";
-	    	//atlas
-
+	    	String url = "mongodb://user:password@127.0.0.1:27017/appWeb";
+	
 	        MongoClientURI mongoURI = new MongoClientURI(url);
 	        return new SimpleMongoDbFactory(mongoURI);
 	    }

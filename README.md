@@ -120,5 +120,9 @@ String url = "";
    http://localhost:8080/alexRandomBeer/api/beer/5af37b18d30b7fc8e7d68f16/
    ~~~
 
-
+# Test
+   In Test folder, there is a .pdf file, with tests & examples .
+    ~~~ txt
+   Test/testAlejandroRandomBeer.pdf
+   ~~~
 
