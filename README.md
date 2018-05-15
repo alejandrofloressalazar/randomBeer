@@ -1,25 +1,34 @@
 ## Synopsis
 
-Beer API rest + Beer website
+Random Beer website:
 
-Project Technology
+Beer API rest:
 
-Back End
-* Java 1.8
+## Project Technology
+
+Back-End
 * Spring Boots 1.5.4
-* SpringData mongodb
+* Spring Data MongoDb 1.10.6
+* Java 1.8
+* Maven 
 
-Front End
+Front-End 
+* Bootstrap 4.0
 * Thymeleaf
 * Html 5
+* Jquery
+* Css 3
 
 Data Base
 * MongoDB 3.4
 
+Server : 
+*Tomcat 8.5
+
 Tools : 
 * Eclipse - Spring tool suite-3.8.4
 * PostMan
-* robo3t
+* Robo3t
  
 
 ## Installation
@@ -29,7 +38,15 @@ Tools :
 
 * Modify the class MongoConfig.java with your database connection. 
 
-Data base scheme:
+
+
+## Data Base:
+
+Name Collection = beer
+
+db.beer.findOne();
+
+Scheme:
 ``` corefile
 {
     "_id" : ObjectId("5af379e4d30b7fc8e7d68f15"),
