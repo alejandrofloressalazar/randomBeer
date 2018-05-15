@@ -42,10 +42,9 @@ Public Rest API  that it allows to modify and obtain records of the 'beer' colle
 
 # Installation
 
-* you must import the java project in your IDE, Eclipse is recommended
-* have the technologies mentioned above
-
-* Modify the class MongoConfig.java with your database connection. 
+* You must import the java project in your IDE ('Eclipse Spring tool suite' is recommended).
+* Have the technologies mentioned above
+* See the database item.
 
 
 # Data Base
@@ -73,7 +72,9 @@ String url = "";
 ### Get One (Get)
    ~~~ txt
    http://localhost:8080/alexRandomBeer/api/beer/id
+   ~~~
    Example:
+   ~~~ txt
    http://localhost:8080/alexRandomBeer/api/beer/5af379e4d30b7fc8e7d68f15 
    ~~~
 
@@ -81,7 +82,9 @@ String url = "";
 
    ~~~ txt
    http://localhost:8080/alexRandomBeer/api/beer/
+  ~~~
    Example:
+   ~~~ txt
    http://localhost:8080/alexRandomBeer/api/beer/
    plus the following parameters:
    {
@@ -95,7 +98,9 @@ String url = "";
 ### Update  (Put)
    ~~~ txt
    http://localhost:8080/alexRandomBeer/api/beer/id
+   ~~~
    Example:
+   ~~~ txt
    http://localhost:8080/alexRandomBeer/api/beer/5af379e4d30b7fc8e7d68f15/
    plus the following parameters:
     {
@@ -109,7 +114,9 @@ String url = "";
 ### Delete  (Delete)
    ~~~ txt
    http://localhost:8080/alexRandomBeer/api/beer/id
-   Example=
+   ~~~
+   Example:
+   ~~~ txt
    http://localhost:8080/alexRandomBeer/api/beer/5af37b18d30b7fc8e7d68f16/
    ~~~
 
