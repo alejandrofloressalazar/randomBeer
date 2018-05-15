@@ -121,8 +121,8 @@ String url = "";
    ~~~
 
 # Test
-   In Test folder, there is a .pdf file, with tests & examples .
-    ~~~ txt
-   Test/testAlejandroRandomBeer.pdf
-   ~~~
+   In Test folder, there is a .pdf file, with tests & examples.
+  ~~~ txt
+  Test/testAlejandroRandomBeer.pdf
+  ~~~
 
