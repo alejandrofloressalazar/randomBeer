@@ -43,6 +43,7 @@ Public Rest API  that it allows to modify and obtain records of the 'beer' colle
 # Installation
 
 * You must import the java project in your IDE ('Eclipse Spring tool suite' is recommended).
+* The App run in Tomcat Server
 * Have the technologies mentioned above
 * See the database item.
 
@@ -71,11 +72,11 @@ String url = "";
    ~~~
 ### Get One (Get)
    ~~~ txt
-   http://localhost:8080/alexRandomBeer/api/beer/id
+   http://localhost:8080/alexRandomBeer/api/beer/id/
    ~~~
    Example:
    ~~~ txt
-   http://localhost:8080/alexRandomBeer/api/beer/5af379e4d30b7fc8e7d68f15 
+   http://localhost:8080/alexRandomBeer/api/beer/5af379e4d30b7fc8e7d68f15/
    ~~~
 
 ### Insert  (Post)
@@ -97,7 +98,7 @@ String url = "";
 
 ### Update  (Put)
    ~~~ txt
-   http://localhost:8080/alexRandomBeer/api/beer/id
+   http://localhost:8080/alexRandomBeer/api/beer/id/
    ~~~
    Example:
    ~~~ txt
@@ -113,7 +114,7 @@ String url = "";
 
 ### Delete  (Delete)
    ~~~ txt
-   http://localhost:8080/alexRandomBeer/api/beer/id
+   http://localhost:8080/alexRandomBeer/api/beer/id/
    ~~~
    Example:
    ~~~ txt

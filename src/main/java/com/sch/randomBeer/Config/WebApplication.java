@@ -1,4 +1,4 @@
-package com.sch.randomBeer.Config;
+package com.sch.randomBeer.config;
 
 
 import org.springframework.boot.SpringApplication;

@@ -1,8 +1,6 @@
-package com.sch.randomBeer.Service;
+package com.sch.randomBeer.service;
 
 import java.util.List;
-
-
 import com.sch.randomBeer.bean.Beer;
 
 public interface BeerService {
