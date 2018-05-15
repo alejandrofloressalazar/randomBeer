@@ -1,47 +1,47 @@
-## Synopsis
+# Synopsis
 
 The project is composed of two large elements
 
-Random Beer website:
+### Random Beer website:
 
 The only project webpage, which randomly displays a beer with its details.
  ~~~ txt
 http://localhost:8080/alexRandomBeer/randomBeer
  ~~~
 
-Rest API:
+### Rest API: 
 
 Public Rest API  that it allows to modify and obtain records of the 'beer' collection
 ** more details in 'Rest API & Urls'
 
 
-## Project Technology
+# Project Technology
 
-Back-End
+### Back-End
 * Spring Boots 1.5.4
 * Spring Data MongoDb 1.10.6
 * Java 1.8
 * Maven 
 
-Front-End 
+### Front-End 
 * Bootstrap 4.0
 * Thymeleaf
 * Html 5
 * Jquery
 * Css 3
 
-Data Base
+### Data Base
 * MongoDB 3.4
 
-Server
+### Server
 * Tomcat 8.5
 
-Tools 
+### Tools 
 * Eclipse - Spring tool suite-3.8.4
 * PostMan
 * Robo3t
 
-## Installation
+# Installation
 
 * you must import the java project in your IDE, Eclipse is recommended
 * have the technologies mentioned above
@@ -49,7 +49,7 @@ Tools
 * Modify the class MongoConfig.java with your database connection. 
 
 
-## Data Base:
+# Data Base:
 
 Name Collection = beer
 
@@ -68,12 +68,12 @@ Scheme:
 ```
 
 
-## Rest API & Urls 
+# Rest API & Urls 
 
    Website : 
    http://portalpega.cl/alexRandomBeer/randomBeer
 
-  #API Rest: 
+  API Rest: 
 
    ~~~ txt 
    GetAll (Get method)
