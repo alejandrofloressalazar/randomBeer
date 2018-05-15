@@ -50,6 +50,7 @@ Public Rest API  that it allows to modify and obtain records of the 'beer' colle
 
 # Data Base
 
+
 * Create a collection in your database called
 ~~~ txt 
 beer
@@ -63,38 +64,25 @@ DataBase / beer.json
 String url = "";
 ~~~ 
 
-Name Collection = beer
-
-
-Example Documents :
-DataBase/beer.json
-
 
 # Rest API & Urls 
-
-   Website : 
-   http://portalpega.cl/alexRandomBeer/randomBeer
-
-  API Rest: 
-
+### Get All (Get)
    ~~~ txt 
-   GetAll (Get method)
-   http://portalpega.cl/alexRandomBeer/api/beer/
+   http://localhost:8080/alexRandomBeer/api/beer/
+   ~~~
+### Get One (Get)
+   ~~~ txt
+   http://localhost:8080/alexRandomBeer/api/beer/id
+   Example:
+   http://localhost:8080/alexRandomBeer/api/beer/5af379e4d30b7fc8e7d68f15 
    ~~~
 
-   ~~~ txt
-   Get a beer (Get method)
-   http://portalpega.cl/alexRandomBeer/api/beer/id
-   Example:
-   http://portalpega.cl/alexRandomBeer/api/beer/5af379e4d30b7fc8e7d68f15 
-   ~~~
-
+### Insert  (Post)
 
    ~~~ txt
-   Insert   (Get post)
-   http://portalpega.cl/alexRandomBeer/api/beer/
+   http://localhost:8080/alexRandomBeer/api/beer/
    Example:
-   http://portalpega.cl/alexRandomBeer/api/beer/
+   http://localhost:8080/alexRandomBeer/api/beer/
    plus the following parameters:
    {
 	   "name":"xxxx",
@@ -104,12 +92,11 @@ DataBase/beer.json
    }
    ~~~
 
-
+### Update  (Put)
    ~~~ txt
-   Update (Put method)
-   http://portalpega.cl/alexRandomBeer/api/beer/id
+   http://localhost:8080/alexRandomBeer/api/beer/id
    Example:
-   http://portalpega.cl/alexRandomBeer/api/beer/5af379e4d30b7fc8e7d68f15/
+   http://localhost:8080/alexRandomBeer/api/beer/5af379e4d30b7fc8e7d68f15/
    plus the following parameters:
     {
 	   "name":"xxxx",
@@ -119,12 +106,11 @@ DataBase/beer.json
    }
    ~~~
 
-
+### Delete  (Delete)
    ~~~ txt
-   Delete  (Delete method)
-   http://portalpega.cl/alexRandomBeer/api/beer/id
+   http://localhost:8080/alexRandomBeer/api/beer/id
    Example=
-   http://portalpega.cl/alexRandomBeer/api/beer/5af37b18d30b7fc8e7d68f16/
+   http://localhost:8080/alexRandomBeer/api/beer/5af37b18d30b7fc8e7d68f16/
    ~~~
 
 
